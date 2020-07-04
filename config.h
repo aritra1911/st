@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Fira Code:pixelsize=12:antialias=true:autohint=true";
+static char *font = "JetBrains Mono:pixelsize=12:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
 	"Font Awesome 5 Brands Regular:pixelsize=12:antialias=true:autohint=true",
@@ -102,24 +102,24 @@ unsigned int tabspaces = 8;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"black",
-	"red3",
-	"green3",
-	"yellow3",
-	"blue2",
-	"magenta3",
-	"cyan3",
-	"gray90",
+	"#1c2023",  // black
+	"#c7ae95",  // red3
+	"#95c7ae",  // green3
+	"#aec795",  // yellow3
+	"#ae95c7",  // blue2
+	"#c795ae",  // magenta3
+	"#95aec7",  // cyan3
+	"#c7ccd1",  // gray90
 
 	/* 8 bright colors */
-	"gray50",
-	"red",
-	"green",
-	"yellow",
-	"#5c5cff",
-	"magenta",
-	"cyan",
-	"white",
+	"#747c84",  // gray50
+	"#c7c795",  // red
+	"#393f45",  // green
+	"#565e65",  // yellow
+	"#adb3ba",  // #5c5cff
+	"#dfe2e5",  // magenta
+	"#c79595",  // cyan
+	"#f3f4f5",  // white
 
 	[255] = 0,
 
@@ -135,8 +135,8 @@ static const char *colorname[] = {
  */
 unsigned int defaultfg = 7;
 unsigned int defaultbg = 0;
-static unsigned int defaultcs = 256;
-static unsigned int defaultrcs = 257;
+static unsigned int defaultcs = 13;
+static unsigned int defaultrcs = 0;
 
 /*
  * Default shape of cursor
