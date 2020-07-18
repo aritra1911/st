@@ -8,8 +8,10 @@
 static char *font = "JetBrains Mono:pixelsize=11:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
+	"Material Design Icons Desktop:pixelsize=11:antialias=true:autohint=true",
 	"Font Awesome 5 Brands Regular:pixelsize=11:antialias=true:autohint=true",
 	"MesloLGS NF:pixelsize=11:antialias=true:autohint=true",
+	"Braille:pixelsize=11:antialias=true:autohint=true",
 };
 
 static int borderpx = 2;
