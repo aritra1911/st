@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "JetBrains Mono:pixelsize=11:antialias=true:autohint=true";
+static char *font = "Termingus:pixelsize=16:antialias=false:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
 	"Material Design Icons Desktop:pixelsize=11:antialias=true:autohint=true",
