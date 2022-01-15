@@ -95,7 +95,8 @@ const int boxdraw_braille = 0;
 static int bellvolume = 0;
 
 /* visual-bell timeout in ms (0 to disable visual-bell) */
-static int vbelltimeout = 100;
+// static int vbelltimeout = 100;
+static int vbelltimeout = 0;
 
 /* choose predefined visual-bell cells to inverse, or define your own logic */
 // #define VBCELL x==0 || x==right || y==0 || y==bottom  /* border */
